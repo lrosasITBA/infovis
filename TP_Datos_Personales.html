@@ -48,31 +48,56 @@ p {
   Se tomo como parametro de tasa metabólica basal (BMR): 2000kcal/día. El estandar promedio establecido para un hombre.<br>
   Para las mediciones de porcentaje de grasa, se utilizo el método "U.S. Navy". Calculado como: %BF = 495 / (1.0324 − 0.19077 × log10(waist − neck) + 0.15456 × log10(height)) − 450.<br>
 </p>
-  <p>Despues de 58 días registrados, estos fueron los déficits calóricos por día:<br>
   
-  </p>
-  <div class='tableauPlaceholder' id='viz1714383662147' style='position: fixed'><noscript><a href='#'><img alt='Déficit calórico por día ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;TP&#47;TP_Datos_Personales_17143836221760&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='TP_Datos_Personales_17143836221760&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;TP&#47;TP_Datos_Personales_17143836221760&#47;Sheet1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='es-ES' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1714383662147');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+<h2><h2>3. Resultados</h2></h2>
+<p>
+  Despues de 58 días registrados, estos fueron los déficits calóricos por día:<br>
+  
+</p>
+  <div class='tableauPlaceholder' id='viz1714383662147' style='position: relative'><noscript><a href='#'><img alt='Déficit calórico por día ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;TP&#47;TP_Datos_Personales_17143836221760&#47;Sheet1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='TP_Datos_Personales_17143836221760&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;TP&#47;TP_Datos_Personales_17143836221760&#47;Sheet1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='es-ES' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1714383662147');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+  
+<p><br>
+</p>
+  Observando estos datos, obtenemos que el déficit calórico acumulado fue negativo, -2711.<br>.
+  Si miramos este número aislado, podriamos pensar que se subio de peso.<br>
+  Pero cuando comparamos con las muestras de peso tenemos una discrepancia.<br>
+<p>
+<img src = "Kg.png" alt="kilos"/>
+</p>
+  Baje 3,8 Kilos durante el transcurso de la toma de datos.<br>
+  Una diferencia de 3,26 Kilos respecto al proyectado.
+  También, podemos ver el detalle mirando exclusivamente la masa grasa: <br>
+<p> 
+<img src = "FM.png" alt="fm"/>
+  
+<p> 
+  De estos 3,8 kilos de diferencia, la totalidad de la perdida proviene de la masa grasa.<br>
+  La masa magra soló vario en 20 gramos.<br>
+  El error del modelo de 3,26 kilos se convierte en un desfazaje de 25.102 kcal. (7700 kcal/kg Masa Grasa)
+</p>
 
-<p>TP - Datos Personales <br>
-  Visualización de la Información (72.74)<br>
-  Alumno: Lorenzo Rosas<br>
-  Propuesta: Contador de Calorías<br>
+<h2><h2>4. Explicación de errores</h2></h2>
+
+<p> 
+  Si bien es una sorpresa agradable haber bajado kilos de más, este ánalisis prueba la falla del modelo.<br>
+  Algunas de las posibles teorías para esto son:<br>
+  -Se sobredimensiono al momento de contar las calorías consumidas.<br>
+  -Se tomo una baja tasa metabólica basal.<br>
+  -No se tomó en cuenta formas poco intensivas de actividad física, como tareas del hogar y movimientos de objetos pesados.<br>
+  -Se hizo una incorrecta traducción de proteínas a kcal. Como las proteínas cumplen otras funciones como síntesis de aminoácidos, no es correcto relacionar todo el consumo de este macronutriente como fuente de calorías.<br>
+  Adiconalmente, muestro una descomposición de los macronutrientes concumidos. Al tratarse de una dieta alta en proteína, este ultimo punto toma un peso considerable.
 </p>
   
-  <img src = "Kg.png" alt="kilos"/>
-<p>TP - Datos Personales <br>
-  Visualización de la Información (72.74)<br>
-  Alumno: Lorenzo Rosas<br>
-  Propuesta: Contador de Calorías<br>
-</p>
-  <img src = "FM.png" alt="fm"/>
- <p>TP - Datos Personales <br>
-  Visualización de la Información (72.74)<br>
-  Alumno: Lorenzo Rosas<br>
-  Propuesta: Contador de Calorías<br>
-</p>
-  <img src = "porc.png" alt="macros"/>
+<img src = "porc.png" alt="macros"/>
 
+<h2><h2>5. Conclusión</h2></h2>
+
+<p> 
+  Este trabajo ahora toma una gran utilidad para mí. Puedo armar nuevos planes de dieta si considero que tengo un BMR más alto que el promedio.<br>
+  También le doy importancia a esas actividades físicas de baja intensidad que pasan desapercibidas. Que en período más largo de tiempo adquiere efecto.<br>
+  Por último, esta bueno destacar que una dieta de mantenimiento conjunto a una vida activa puede hacer que bajes de peso.<br>
+</p>
+    
 </body>
 
 </body>
